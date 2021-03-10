@@ -1,5 +1,5 @@
 class AFDMorse
-    
+    #Class properties - iterator and the string
     @i = 0
     @txt = ""
 
@@ -636,5 +636,6 @@ class AFDMorse
 
 end
 
+#Create new instance of AFD morse and run it
 t = AFDMorse.new
 t.iniciar
